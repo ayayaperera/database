@@ -1,6 +1,6 @@
 Drop database if exists empleados;
 CREATE DATABASE empleados;
-USE bd_empleados;
+USE empleados;
 create table depart(
   dept_no INTEGER PRIMARY KEY,
   dnombre VARCHAR(30),
