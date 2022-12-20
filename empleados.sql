@@ -1,5 +1,5 @@
-Drop database if exists bd_empleados;
-CREATE DATABASE bd_empleados;
+Drop database if exists empleados;
+CREATE DATABASE empleados;
 USE bd_empleados;
 create table depart(
   dept_no INTEGER PRIMARY KEY,
