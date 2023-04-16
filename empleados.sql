@@ -18,7 +18,7 @@ create table emple(
   salario INTEGER,
   comision INTEGER,
   dept_no INTEGER,
-  FOREIGN KEY (dept_no) REFERENCES depart(dept_no) on update cascade on delete cascade
+  FOREIGN KEY (dept_no) REFERENCES depart(dept_no)
 );
 
 
